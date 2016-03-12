@@ -1,0 +1,100 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WiYak.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneBackgroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" 
+    Orientation="Portrait"
+    mc:Ignorable="d" 
+    d:DesignHeight="800" 
+    d:DesignWidth="480"
+    shell:SystemTray.IsVisible="False"
+    Loaded="Page_Loaded">
+    
+    <Grid Background="{StaticResource PhoneForegroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock 
+                Text="WIYAK" 
+                Foreground="{StaticResource PhoneBackgroundBrush}" 
+                Style="{StaticResource PhoneTextNormalStyle}"/>
+
+            <TextBlock 
+                Text="settings" 
+                Margin="9,-7,0,0" 
+                Foreground="{StaticResource PhoneBackgroundBrush}" 
+                Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!-- content -->
+        <Grid Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <ScrollViewer Grid.Row="0" Margin="12,0,12,0">
+                    <StackPanel>
+                        <toolkit:ToggleSwitch 
+                            x:Name="ThreadToggle" 
+                            Header="Allow Threads" 
+                            Style="{StaticResource ToggleSwitchStyle}" 
+                            Checked="Threads_Checked" 
+                            Unchecked="Threads_Unchecked"/>
+                    
+                        <toolkit:ToggleSwitch 
+                            x:Name="NotificationToggle" 
+                            Header="Join/Disconnect Notifications" 
+                            Style="{StaticResource ToggleSwitchStyle}" 
+                            Checked="Notification_Checked" 
+                            Unchecked="Notification_Unchecked"/>
+
+                        <TextBlock
+                            x:Name="NameHeader"
+                            Text="Username"
+                            Margin="12,0,0,0"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}" 
+                            FontSize="{StaticResource PhoneFontSizeNormal}" 
+                            Foreground="{StaticResource PhoneContrastForegroundBrush}"/>
+                        
+                        <TextBox
+                            x:Name="NameBox"
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Top" 
+                            Margin="0,0,20,0" 
+                            FontSize="32"
+                            Background="LightGray"
+                            Foreground="{StaticResource PhoneBackgroundBrush}"
+                            BorderBrush="LightGray"
+                            KeyUp="NameBox_Key"/>
+                    </StackPanel>
+                </ScrollViewer>
+
+                <TextBlock 
+                    x:Name="BackButton" 
+                    Grid.Row="1" 
+                    Text="save" 
+                    Style="{StaticResource PhoneTextExtraLargeStyle}" 
+                    Foreground="{StaticResource PhoneAccentBrush}" 
+                    Margin="30,0,30,30"  
+                    MouseLeave="BackButton_Leave"
+                    MouseEnter="BackButton_Enter" 
+                    Tap="BackButton_Tap"/>
+                
+            </Grid>
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

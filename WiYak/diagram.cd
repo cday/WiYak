@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WiYak.App" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAiAQAIAAgAhQAAAABACAAAAAAAEQQAAgCABIIAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.ChangePage" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQggAAAAAAAEAAAACAA=</HashCode>
+      <FileName>ChangePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Channel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAASCAQIAAAAFBAgBAACBAAAAASRAAAAhCAAgQ=</HashCode>
+      <FileName>channel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WiYak.Chat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEgCFAQSAIAAsFRSEEARCAAQACAAsCkYKAAMAQEAg=</HashCode>
+      <FileName>chat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WiYak.Commands" Collapsed="true">
+    <Position X="4" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAwCECDAICsACQBAAAQgBCEAAQABAAgEAAAQAAA=</HashCode>
+      <FileName>commands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Controls" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.CreatePage" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAABAAAAAAAAQACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreatePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Display" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>display.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Errors" Collapsed="true">
+    <Position X="5.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>errors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.MainPage" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAIAAAEAAEAQAAAAAQEAQAAAAgAAAAAAAAAgJA=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Message" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAEQA=</HashCode>
+      <FileName>message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.MessageConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>messageconverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WiYak.Packet" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Settings" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAMAACIAAAAAABAAAAAAAAAQIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Storage" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAIAgAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>storage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.Thread" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEEAACAAAACAAAhAAgAAAAAQAAAAA=</HashCode>
+      <FileName>thread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.ThreadPage" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEABAAAAAQAARgAAAAQEAQAAAAAAAA=</HashCode>
+      <FileName>ThreadPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiYak.User" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAiAAAAgAAAAAQ=</HashCode>
+      <FileName>user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="8.25" />
+</ClassDiagram>
